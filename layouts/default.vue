@@ -1,5 +1,5 @@
 <template>
-  <div class="font-sans">
+  <div class="font-sans flex flex-col h-screen justify-between">
     <Header/>
 
     <Nuxt/>
