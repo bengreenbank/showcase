@@ -7,6 +7,10 @@ module.exports = {
     "./nuxt.config.js",
   ],
   theme: {
+    container: {
+      center: true,
+      padding: '2rem'
+    },
     fontFamily: {
       sans: ['Raleway', 'sans-serif'],
     },
