@@ -10,7 +10,7 @@
 
         <br class="mb-8"/>
 
-        My key technologies are <u>CraftCMS</u>, <u>Twig</u>, <u>Vue</u> and <u>TailwindCSS</u>. I love exploring new technologies, and my tech stack is always evolving.
+        My key technologies are <u>CraftCMS</u>, <u>Twig</u>, <u>Vue</u>, <u>Laravel Mix</u> and <u>TailwindCSS</u>. I love exploring new technologies, and my tech stack is always evolving.
       </p>
     </section>
   </main>
