@@ -20,7 +20,7 @@ export default {
   name: "Button",
   data() {
     return {
-      classes: 'bg-gradient-to-r from-green-400 to-emerald-400 text-slate-800 px-4 py-2.5 rounded-md font-semibold transition-shadow'
+      classes: 'bg-pink text-black px-4 py-2.5 rounded-md font-semibold transition-shadow'
     }
   },
   props: {
