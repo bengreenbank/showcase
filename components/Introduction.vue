@@ -1,6 +1,6 @@
 <template>
   <main class="bg-purple text-white flex-grow flex items-center">
-    <section class="container pr-20">
+    <section class="container lg:pr-20">
       <h1 class="text-5xl lg:text-8xl font-extrabold tracking-wide mb-8">
         Hi there 👋
       </h1>
