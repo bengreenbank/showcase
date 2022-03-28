@@ -1,11 +1,15 @@
 <template>
   <main class="bg-purple text-white flex-grow flex items-center">
-    <section class="container lg:pr-20">
-      <h1 class="text-5xl lg:text-8xl font-extrabold tracking-wide mb-8">
-        Hi there 👋
+    <section class="container">
+      <h1 class="text-5xl font-extrabold tracking-wide mb-8 flex gap-4">
+        <u class="underline underline-offset-8 decoration-pink decoration-8">
+          Hi there
+        </u>
+
+        👋
       </h1>
 
-      <p class="text-2xl lg:text-4xl tracking-wide !leading-relaxed mb-6">
+      <p class="text-2xl tracking-wide !leading-relaxed mb-6 lg:max-w-4xl">
         I'm Ben, a <u>frontend developer</u> from Suffolk. My key technologies are <u>CraftCMS</u>, <u>Twig</u>, <u>Vue</u>, <u>Laravel Mix</u>, <u>Sass</u> and <u>TailwindCSS</u>.
 
         <br class="mb-8"/>
