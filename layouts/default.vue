@@ -1,9 +1,9 @@
 <template>
-  <div class="font-sans flex flex-col h-screen justify-between">
-    <Header/>
+  <div class="flex h-screen flex-col justify-between font-sans">
+    <Header />
 
-    <Nuxt/>
+    <Nuxt />
 
-    <Footer/>
+    <Footer />
   </div>
 </template>
