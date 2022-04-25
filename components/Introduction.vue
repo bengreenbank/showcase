@@ -13,8 +13,8 @@
         class="mb-6 text-2xl !leading-relaxed tracking-wide underline-offset-4 lg:max-w-4xl"
       >
         I'm Ben, a <u>frontend developer</u> from Suffolk. My key technologies
-        are <u>CraftCMS</u>, <u>Twig</u>, <u>Vue</u>, <u>Laravel Mix</u>,
-        <u>Sass</u> and <u>TailwindCSS</u>.
+        are <u>CraftCMS</u>, <u>TailwindCSS</u>, <u>VueJS</u>, <u>Sass</u> and
+        <u>Laravel Mix</u>.
 
         <br class="mb-8" />
 
