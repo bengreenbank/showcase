@@ -9,7 +9,9 @@
         👋
       </h1>
 
-      <p class="mb-6 text-2xl !leading-relaxed tracking-wide lg:max-w-4xl">
+      <p
+        class="mb-6 text-2xl !leading-relaxed tracking-wide underline-offset-4 lg:max-w-4xl"
+      >
         I'm Ben, a <u>frontend developer</u> from Suffolk. My key technologies
         are <u>CraftCMS</u>, <u>Twig</u>, <u>Vue</u>, <u>Laravel Mix</u>,
         <u>Sass</u> and <u>TailwindCSS</u>.
@@ -19,6 +21,16 @@
         I have a passion for writing <u>clean</u>, <u>performant</u> and
         <u>modular</u> code. I love exploring new technologies, and my tech
         stack is always evolving.
+
+        <br class="mb-8" />
+
+        This site is built using NuxtJS and you can view the code on
+        <a
+          class="underline"
+          href="https://github.com/bengreenbank/showcase"
+          target="_blank"
+          >GitHub</a
+        >!
       </p>
     </section>
   </main>
