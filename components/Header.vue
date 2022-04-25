@@ -1,6 +1,8 @@
 <template>
   <header class="flex w-full justify-between bg-purple py-10 shadow-lg">
-    <nav class="container flex items-center justify-between">
+    <nav
+      class="container flex flex-col justify-between gap-8 lg:flex-row lg:items-center"
+    >
       <img
         src="~/assets/images/logo.svg"
         alt="greenbank.dev"
@@ -8,9 +10,14 @@
         height="27"
       />
 
-      <ul class="text-xl text-white font-semibold italic flex gap-6">
+      <ul class="flex gap-4 text-xl font-semibold italic text-white lg:gap-6">
         <li v-for="link in links">
-          <NuxtLink :class="{'text-pink': link.url === $route.path}" :to="link.url"> {{ link.title }} </NuxtLink>
+          <NuxtLink
+            :class="{ 'text-pink': link.url === $route.path }"
+            :to="link.url"
+          >
+            {{ link.title }}
+          </NuxtLink>
         </li>
       </ul>
     </nav>
@@ -25,14 +32,14 @@ export default {
       links: {
         home: {
           title: 'Home',
-          url: '/'
+          url: '/',
         },
         projects: {
           title: 'Projects',
-          url: '/projects'
-        }
-      }
-    }
-  }
+          url: '/projects',
+        },
+      },
+    };
+  },
 };
 </script>
